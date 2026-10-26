@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rlhf-lab"
+version = "0.1.0"
+description = "Reproducible small-model summarization RLHF with human preference evaluation"
+requires-python = ">=3.11,<3.13"
+dependencies = []
+
+[project.scripts]
+rlhf-lab = "rlhf_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["rlhf_lab*", "alignment_lab*"]

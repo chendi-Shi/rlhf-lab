@@ -1,0 +1,7 @@
+# CPU tokenizer/data audit only. This is not a training environment.
+# No torch/TRL/PEFT/bitsandbytes extras are installed here.
+transformers[chat-template]==5.8.1
+tokenizers==0.22.2
+huggingface-hub==1.33.0
+numpy==2.2.6
+safetensors==0.8.0

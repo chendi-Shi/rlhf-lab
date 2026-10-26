@@ -1,0 +1,9 @@
+# Candidate top-level pins. NOT a verified transitive lock or a completed GPU test.
+# Install torch==2.8.0 from the CUDA 12.6 index first; see scripts/setup.ps1.
+torch==2.8.0
+transformers==4.56.2
+trl==0.25.1
+accelerate==1.10.1
+datasets==4.3.0
+numpy==2.2.6
+psutil==7.1.0

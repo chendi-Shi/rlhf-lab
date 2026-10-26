@@ -1,0 +1,9 @@
+# Observed working runtime on this machine; install only in a project environment.
+# CUDA wheel choice must match the host. Local engine does not need trl/datasets.
+torch==2.7.1
+transformers==5.8.1
+numpy==2.2.6
+safetensors==0.8.0
+tokenizers==0.22.2
+huggingface-hub==1.33.0
+psutil==7.2.2
